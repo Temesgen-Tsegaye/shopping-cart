@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    gap: 4rem;
+    padding-left: 60vw;
+    height: 17vh;
+    padding-top: 2rem;
+    justify-content: baseline;
+    position:sticky;
+    z-index: 5;
+    opacity: 1;
+    width: 100vw;
+    top:0%;
+    background-color:rgb(57, 59, 53,0.9)
+
+    
+    
+}
+.nav>a{
+    font-size: 2rem;
+    font-weight: bold;
+
+    transition: all 1s ease;
+    color:white;
+    text-decoration: none;  
+
+
+    
+}
+.nav>a:hover{
+    color: blue;
+    opacity: 1;
+    transform:rotateY(360deg)
+
+}
+.fa{
+    width:2.2rem;
+    height:2.2rem;
+    position: relative;
+
+}
+.facontainer{
+    position:relative;
+}
+.cartcounter{
+    width: 1.2rem;
+    height: 1.4rem;
+    position:absolute;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    top: 0;
+    padding-bottom: 0.3rem;
+    right: 0px;
+    z-index: 2;
+}

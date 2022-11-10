@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.card{
+    /* width: 40vw;
+    height:40vw; */
+    margin:2rem;
+    display:flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+.card:hover{
+    /* transform:; */
+    transform:rotateX(3deg) rotateZ(3deg) scale(0.8);
+}
+.card img{
+    -webkit-transition:all 1s ease;
+      transition: all 1s ease;
+}
+.image{
+    width: 30vw;
+    height: 25vw;
+-webkit-filter: sepia(1);
+ filter: sepia(1);
+}
+.image:hover{
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+    
+}
+.span{
+    width:30vw;
+    height:3rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}

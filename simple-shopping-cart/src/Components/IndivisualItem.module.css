@@ -1,0 +1,50 @@
+.image{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px 0px rgba(1,1,1,0.8);
+}
+.container{
+    display: flex;
+   
+     justify-content: center;
+     align-items: center;
+     height: 83vh;
+     gap: 3rem;
+     
+}
+.container>div{
+    display: flex;
+    flex-direction: column;
+}
+.buttonn{
+    margin-top: 15px;
+    background-color:black;
+    color: white;
+    font-size: 1rem;
+    padding: 0.4rem;
+    border-style: none;
+    border-radius: 4px;
+    height: 1.9rem;
+    transition:all linear 0.5s;
+    width: 6rem;
+}
+.buttonn:hover{
+   background-color: rgba(248, 239, 239, 0.4);
+    color: black;
+    transform: scale(1.2);
+   cursor:pointer;
+}
+span{
+    width:50vh ;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 0px 2px 0px;
+
+}

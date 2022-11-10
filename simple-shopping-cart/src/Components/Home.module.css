@@ -1,0 +1,56 @@
+.backimg{
+ width:100vw;
+ height:100%;
+ overflow: hidden;
+ opacity: 1;
+ z-index: -1;
+ background-color:black;
+}
+.body{
+    width: 100vw;
+    height: 83vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.body>div{
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    
+    background-color:rgba(2,2,2,0.5);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+    
+}
+@keyframes intro {
+    from{
+        transform:translateX(-100%) scale(0);
+    }
+    to{
+        transform: translateX(0%) scale(1);
+    }
+}
+.p1{
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    
+}
+.p2{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+    
+}
