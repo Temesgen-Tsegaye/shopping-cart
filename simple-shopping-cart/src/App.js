@@ -3,7 +3,7 @@ import Home from "./Components/Home";
 import Cart from "./Components/Cart";
 import Shope from "./Components/Shope";
 import Shared from "./Components/Shared";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,HashRouter } from "react-router-dom";
 import ShopeDetail from "./Components/ShopeItemsDetail";
 
 
