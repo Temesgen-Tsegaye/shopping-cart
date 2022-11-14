@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import styles from "./Nav.module.css";
 import { FaCartPlus } from "react-icons/fa";
 
+
 const NavBar = ({addeditems}) => {
   return (
     <nav className={styles.nav}>

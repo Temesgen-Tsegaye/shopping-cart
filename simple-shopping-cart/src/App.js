@@ -12,7 +12,7 @@ const App = () => {
 
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
     
         <Route path="/" element={<Shared />}>
@@ -28,7 +28,7 @@ const App = () => {
         </Route>
        
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

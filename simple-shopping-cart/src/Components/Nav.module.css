@@ -1,16 +1,19 @@
 .nav{
     display: flex;
     gap: 4rem;
-    padding-left: 60vw;
+    /* padding-left: 60vw; */
     height: 17vh;
     padding-top: 2rem;
-    justify-content: baseline;
+    padding-right: 5rem;
+    justify-content:right;
+    align-items:center;
     position:sticky;
     z-index: 5;
     opacity: 1;
     width: 100vw;
     top:0%;
     background-color:rgb(57, 59, 53,0.9)
+    
 
     
     

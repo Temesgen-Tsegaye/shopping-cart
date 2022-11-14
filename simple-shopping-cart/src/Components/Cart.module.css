@@ -86,6 +86,7 @@
 }
 .card {
   transition: all 0.3s linear;
+  height: auto;
 }
 .card:hover {
   transform: rotateX(20deg) rotateY(20deg);
